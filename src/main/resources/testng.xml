@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNG " verbose="1" parallel="methods" thread-count="3">
+
+
+	
+
+	<listeners>
+		<listener class-name="TestNG.MyTransformer" />
+	</listeners>
+
+	<test name="Regression suite 1">
+	<!-- <groups>
+
+
+		<run>
+
+			<include name="smoke Test" />
+		</run>
+
+	</groups> -->
+
+
+
+		<parameter name="url"
+			value="file:///C:/Users/Ravi/Downloads/Yahoo%20-%C2%A0login.html" />
+		<parameter name="emailid" value="test@yahoo.com" />
+
+
+
+		<classes>
+
+			<!-- <class name="SeleniumLearning.SeleniumInterviewQuestions"/> -->
+			<class name="SeleniumLearning.TestngLearning" >
+			
+			<methods>
+			
+			<exclude name="fourparameterTest"/>
+			</methods>
+			</class>
+
+
+		</classes>
+
+
+	</test>
+</suite>
