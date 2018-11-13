@@ -2,6 +2,7 @@ package JavaInterview;
 
 public class A {
 	
+	
 	//push it on 13th november
 	public static void display()
 	{

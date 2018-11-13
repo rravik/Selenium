@@ -20,6 +20,16 @@ import org.testng.annotations.Test;
 public class JavaInterview {
 
 	@Test
+	public void compare()
+	{
+		String s1 = "Ravi";
+		String s2 = "Ravi";
+		
+		System.out.println("S1 == S2 is "+ s1==s2);
+		
+	}
+	
+	
 	public void removeDuplicates()
 	{
 		
