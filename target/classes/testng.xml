@@ -36,7 +36,7 @@
 			<class name="SeleniumLearning.TestngLearning" >
 			
 			<methods>
-				<exclude name="fourparameterTest"/>
+				<include name="fourparameterTest"/>
 			</methods>
 			
 			</class>

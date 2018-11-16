@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37291" started-at="2018-11-13T11:35:46Z" finished-at="2018-11-13T11:36:23Z">
+  <suite name="Default suite" duration-ms="1544" started-at="2018-11-16T08:47:44Z" finished-at="2018-11-16T08:47:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37291" started-at="2018-11-13T11:35:46Z" finished-at="2018-11-13T11:36:23Z">
-      <class name="SeleniumLearning.AlertTesting">
-        <test-method status="PASS" signature="init()[pri:0, instance:SeleniumLearning.AlertTesting@17cd7a0]" name="init" is-config="true" duration-ms="26920" started-at="2018-11-13T17:05:46Z" finished-at="2018-11-13T17:06:13Z">
+    <test name="Default test" duration-ms="1544" started-at="2018-11-16T08:47:44Z" finished-at="2018-11-16T08:47:45Z">
+      <class name="SeleniumLearning.Excel">
+        <test-method status="PASS" signature="HandlingExcelSheet()[pri:0, instance:SeleniumLearning.Excel@19963d8]" name="HandlingExcelSheet" duration-ms="1512" started-at="2018-11-16T14:17:44Z" finished-at="2018-11-16T14:17:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="prompalert()[pri:0, instance:SeleniumLearning.AlertTesting@17cd7a0]" name="prompalert" duration-ms="10346" started-at="2018-11-13T17:06:13Z" finished-at="2018-11-13T17:06:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prompalert -->
-      </class> <!-- SeleniumLearning.AlertTesting -->
+        </test-method> <!-- HandlingExcelSheet -->
+      </class> <!-- SeleniumLearning.Excel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

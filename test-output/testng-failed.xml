@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumLearning.SeleniumInterviewQuestions">
+      <class name="SeleniumLearning.Excel">
         <methods>
-          <include name="highlightElementTest"/>
-          <include name="doubleClick"/>
+          <include name="extractfromExcel"/>
         </methods>
-      </class> <!-- SeleniumLearning.SeleniumInterviewQuestions -->
+      </class> <!-- SeleniumLearning.Excel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
